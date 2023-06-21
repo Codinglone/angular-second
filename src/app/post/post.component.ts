@@ -8,6 +8,8 @@ export class PostComponent {
   title: string = "List of Posts";
   messagePost: string = 'Message Post';
 
+  childMessage: string = 'From Child Componet';
+
   @Input() fromParent: string = '';
 
 }
